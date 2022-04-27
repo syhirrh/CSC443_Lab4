@@ -8,6 +8,7 @@
 </head>
 <body>
 <?php #Script handle form
+
     if (strlen($_POST["name"]) >0) {
         $_POST["name"] = $_POST["name"];
     }
@@ -48,6 +49,7 @@
         "</i></p>";
         echo $message;
     }
+    
 ?>
 </body>
 </html>
