@@ -48,6 +48,7 @@ if(isset($source)) {
             $_POST["comments"]. " </tt> <p> We will reply to you at <i>" . $_POST["email"].
             "</i></p>";
             echo $message;
+        }
     }else{
         echo "<p><b>You have accessed this page inappropriately!</b></p>";
     }
