@@ -8,8 +8,7 @@
 </head>
 <body>
 <?php #Script handle form
-if(isset($source)) {
-    if($source == 'form.html'){
+if($source == 'form.html'){
         if (strlen($_POST["name"]) >0) {
             $_POST["name"] = $_POST["name"];
         }else{
@@ -48,9 +47,8 @@ if(isset($source)) {
             "</i></p>";
             echo $message;
         }
-    }else{
+}else{
         echo "<p><b>You have accessed this page inappropriately!</b></p>";
-    }
 }
 ?>
 </body>
