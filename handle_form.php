@@ -7,7 +7,7 @@
     <title>Form Feedback</title>
 </head>
 <body>
-<?php #Script handle form
+<?php include("form.html"); #Script handle form 
     if (strlen($_POST["name"]) >0) {
         $_POST["name"] = $_POST["name"];
     }else{
